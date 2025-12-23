@@ -1,0 +1,63 @@
+{
+  "universe_metadata": {
+    "world_name": "Aetheria",
+    "era": "The Fourth Eclipse",
+    "magic_level": "High",
+    "tech_level": "Steampunk/Industrial"
+  },
+  "geography": {
+    "regions": [
+      {
+        "region_id": "reg_001",
+        "name": "Iron-Reach Archipelago",
+        "climate": "Arid/Maritime",
+        "danger_level": 3,
+        "locations": [
+          {
+            "loc_id": "loc_101",
+            "name": "Rustport",
+            "type": "City",
+            "is_discovered": true,
+            "description": "A sprawling harbor built from salvaged ship hulls."
+          }
+        ]
+      }
+    ]
+  },
+  "factions": [
+    {
+      "faction_id": "fac_vanguard",
+      "name": "The Solar Vanguard",
+      "alignment": "Lawful Neutral",
+      "player_reputation": 25,
+      "global_influence": 80,
+      "current_goals": ["Secure the Aether-Crystals", "Suppress the Rebellion"]
+    }
+  ],
+  "global_state": {
+    "current_time": {
+      "day": 42,
+      "cycle": "Night",
+      "season": "Deep Frost"
+    },
+    "active_events": [
+      {
+        "event_id": "evt_war_01",
+        "description": "The border conflict at the Great Divide",
+        "impact_on_npcs": "Fearful/Uncooperative"
+      }
+    ],
+    "laws_of_physics": {
+      "gravity": "Standard",
+      "magic_rules": "Requires Aether-cells to cast",
+      "death_permanence": true
+    }
+  },
+  "narrative_history": {
+    "major_milestones": [
+      "The Fall of the Floating Isles",
+      "The Treaty of Rustport"
+    ],
+    "prophecy_status": "Partially Fulfilled"
+  }
+}

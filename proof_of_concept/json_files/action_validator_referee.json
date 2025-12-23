@@ -1,0 +1,20 @@
+{
+  "validator_id": "referee_logic_01",
+  "difficulty_settings": {
+    "easy": 5,
+    "medium": 12,
+    "hard": 18,
+    "legendary": 25
+  },
+  "action_mappings": {
+    "climb": "dexterity",
+    "persuade": "charisma",
+    "lift": "strength",
+    "hack": "intelligence"
+  },
+  "global_restrictions": {
+    "require_stamina": true,
+    "stamina_drain_per_action": 10,
+    "allow_resurrection": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "memory_metadata": {
+    "session_id": "game_session_772",
+    "total_turns_played": 24,
+    "last_interaction_timestamp": "2025-12-23T19:30:00Z"
+  },
+  "narrative_summaries": {
+    "world_arc": "The player is an exiled scholar seeking the Chronos-Key to prevent the Second Eclipse.",
+    "recent_recap": "After escaping the Vanguard cells in Rustport, the player successfully stowed away on 'The Driftwood', a smuggler ship owned by Elowen Vane.",
+    "active_tension": "The ship is currently being pursued by a Vanguard scout vessel in a heavy storm."
+  },
+  "decision_log": [
+    {
+      "turn": 5,
+      "event": "Spared the guard Kael",
+      "long_term_flag": "guard_kael_debt_active",
+      "consequence": "The Vanguard has a description of the player, but Kael might provide help later."
+    },
+    {
+      "turn": 18,
+      "event": "Stole the Aether-Sextant from the Captain's quarters",
+      "long_term_flag": "elowen_distrust",
+      "consequence": "Elowen is suspicious of missing gear; trust gain is halved until resolved."
+    }
+  ],
+  "discovered_lore": {
+    "entities": ["The Solar Vanguard", "The Sun-Temple", "The Aether-Crystals"],
+    "mysteries": ["Why did the player's father leave the Runic Shortsword?", "What is the 'Fourth Eclipse' prophecy?"],
+    "unlocked_locations": ["Rustport", "Iron-Reach Archipelago", "The Driftwood (Ship)"]
+  },
+  "npc_specific_memory": {
+    "npc_companion_01": {
+      "current_opinion_of_player": "Wary but impressed by their lockpicking skills.",
+      "last_topic_discussed": "The price of Aether-cells.",
+      "promises_made_to_npc": ["To help her find her father's star-chart"],
+      "hidden_info_revealed": false
+    }
+  },
+  "current_story_hooks": [
+    "The crew is whispering about a mutiny.",
+    "A strange signal is coming from the player's backpack."
+  ]
+}

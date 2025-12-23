@@ -1,0 +1,15 @@
+{
+  "dialogue_state": {
+    "active_npc_id": "npc_companion_01",
+    "conversation_turn": 4,
+    "tension_level": 0.2,
+    "interrogation_mode": false,
+    "topics_discussed": ["the_heist", "ship_location"],
+    "locked_topics": ["secret_identity", "traitor_name"],
+    "patience_meter": {
+      "current": 8,
+      "max": 10,
+      "decay_rate_per_turn": 1
+    }
+  }
+}
