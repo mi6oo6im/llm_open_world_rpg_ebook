@@ -1,0 +1,64 @@
+{
+  "npc_identity": {
+    "npc_id": "npc_companion_01",
+    "name": "Elowen Vane",
+    "gender": "Female",
+    "role": "Outcast Navigator / Primary Companion",
+    "species": "Half-Elf",
+    "race": "Dark Elven-Human Mix",
+    "alignment": "Chaotic Good",
+    "backstory_tags": ["Exile", "Soldier", "Mercenary"],
+    "voice_style": "Sarcastic, uses nautical metaphors, speaks in short sentences",
+    "is_alive": true
+  },
+  "relationship_engine": {
+    "trust_score": 65,
+    "romance_score": 10,
+    "loyalty_level": "Strained Ally",
+    "shared_history": [
+      "Player saved Elowen from the Rustport cells",
+      "Elowen witnessed the player lie to the Solar Vanguard"
+    ]
+  },
+  "status": {
+    "health_points": {
+      "current": 45,
+      "max": 60
+    },
+    "is_essential": true,
+    "is_following_player": true,
+    "current_mood": "Apprehensive",
+    "energy_level": "Exhausted"
+  },
+  "knowledge_base": {
+    "knows_player_secret": true,
+    "world_lore_expertise": ["Navigation", "Aether-Tech", "Smuggling Routes"],
+    "current_objective": "Find the missing star-chart to clear her family name"
+  },
+  "combat_config": {
+    "class": "Scout",
+    "abilities": ["Precision Shot", "Smoke Screen", "Vanishing Act"],
+    "preferred_distance": "Long Range"
+  },
+  "inventory": [
+    {
+      "item": "Weathered Sextant",
+      "significance": "Quest Item / Family Heirloom"
+    },
+    {
+      "item": "Twin Flintlock Pistols",
+      "condition": "Maintained"
+    }
+  ],
+  "narrative_constraints": {
+    "forbidden_actions": [
+      "Will never harm a child",
+      "Will refuse to enter the Sun-Temple",
+      "Cannot swim"
+    ],
+    "triggers": {
+      "if_player_steals": "Decrease trust_score by 5",
+      "if_player_mentions_father": "Trigger 'Memory Flashback' dialogue"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+"System: The game is beginning. The player has just woken up in the {location_name}. Introduce the scene and the primary NPC {npc_name}. Give short recap of the history and current party objectives. Use the provided JSONs to set the tone. Prompt for player first action."
