@@ -1,0 +1,1 @@
+# llm_open_world_rpg_ebook
