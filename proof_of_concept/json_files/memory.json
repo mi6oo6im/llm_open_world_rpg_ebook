@@ -32,6 +32,26 @@
   },
   "current_story_hooks": [
     "A flicker of light was seen in the forbidden sector of the Outpost.",
-    "Your Geiger counter is chirping a rhythm that sounds almost like a code."
+    "Your Geiger counter is chirping a rhythm that sounds almost like a code.",
+    "barn_recently_used",
+    "intent_to_reach_citadel_square_before_noon",
+    "indirect_route_planned_towards_citadel_square",
+    "mara_citadel_background_hint",
+    "mara_stamping_revealed",
+    "shared_trauma_bond",
+    "culvert_entry",
+    "false_alarm_in_culvert",
+    "stealth_approach_in_culvert",
+    "waiting_for_mara_signal",
+    "observed_patrol_pattern",
+    "followed_mara_through_culvert",
+    "followed_mara_silently",
+    "distracted_vanguard_sentry",
+    "mara_discussed_citadel_discipline",
+    "mara_shared_citadel_punishment",
+    "mara_shared_flogging_experience",
+    "mara_displayed_scars",
+    "mara_shared_more_scars",
+    "player_acknowledged_mara_boundaries"
   ]
 }
