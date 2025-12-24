@@ -25,8 +25,11 @@ You MUST respond in the following format:
 (Your story description here)
 
 [STATE_UPDATES]
-- HEALTH: (Change in HP, e.g., -5 or No Change)
-- INVENTORY_ADD: (Item name or None)
-- INVENTORY_REMOVE: (Item name or None)
+- PLAYER_HEALTH_CHANGE: (Change in HP, e.g., -5 or No Change)
+- NPC_HEALTH_CHANGE: (Change in HP, e.g., -5 or No Change)
+- PLAYER_INVENTORY_CHANGE: (Item name or None, add or remove)
+- NPC_INVENTORY_CHANGE: (Item name or None, add or remov)
 - NPC_TRUST: (Change, e.g., +1 or -2)
-- FLAGS: (Any new narrative flags triggered, e.g., "met_spy")
+- NPC_ROMANCE: (Change, e.g., +1 or -2)
+- FLAGS_FOR_MEMORY: (Any new narrative flags triggered, e.g., "met_spy")
+- TIME_ADVANCEMENT: (Seconds to advance the game clock, e.g., 15)
