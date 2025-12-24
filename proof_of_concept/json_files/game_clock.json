@@ -1,16 +1,14 @@
 {
   "chronos_state": {
-    "total_seconds_passed": 86400,
-    "formatted_time": "Day 2, 14:30",
-    "time_phase": "Afternoon",
+    "total_seconds_passed": 64800,
+    "formatted_time": "Day 1, 18:00",
+    "time_phase": "Dusk",
     "is_timed_event_active": true,
-    "active_cooldowns": [
-      {"ability": "Heal", "remaining_turns": 2}
-    ],
+    "active_cooldowns": [],
     "environmental_effects": {
-      "lighting": "Bright",
-      "weather": "Acid Rain",
-      "visibility_penalty": 0.1
+      "lighting": "Dim / Orange-hued",
+      "weather": "Heavy Ashfall",
+      "visibility_penalty": 0.4
     }
   }
 }

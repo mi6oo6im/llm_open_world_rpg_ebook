@@ -1,0 +1,17 @@
+    {
+  "inventory_constraints": {
+    "max_weight_kg": 40.0,
+    "slot_limit": 10,
+    "encumbrance_thresholds": {
+      "light": 0.5,
+      "heavy": 0.8,
+      "overloaded": 1.0
+    },
+    "forbidden_item_types_for_species": {
+      "human": ["heavy_gravity_weapons"],
+      "cyborg": ["holy_water"],
+      "alien": ["toxic_substances"],
+      "elf": ["firearms"]
+    }
+  }
+}

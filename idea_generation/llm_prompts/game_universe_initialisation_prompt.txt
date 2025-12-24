@@ -28,7 +28,7 @@ No "God-Moding": You cannot change the player's health or inventory in the narra
 
 Response Format: Your response must consist of two distinct parts:
 
-[NARRATIVE]: 2-3 paragraphs of immersive, second-person storytelling and dialogue. Focus on sensory details and the NPC's specific voice.
+[NARRATIVE]: 2-3 paragraphs of immersive, second-person storytelling. Focus on sensory details and the NPC's specific voice.
 
 [STATE_UPDATE]: A concise list of suggested changes to the JSON objects based on the narrative outcome (e.g., "Health: -10", "Trust: +1", "Item_Used: Healing Potion").
 

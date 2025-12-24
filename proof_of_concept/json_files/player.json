@@ -1,70 +1,79 @@
 {
   "character_metadata": {
     "version": "1.0",
-    "last_updated": "2025-12-23T14:57:00Z"
+    "last_updated": "2025-12-24T15:30:00Z"
   },
   "identity": {
-    "name": "Valerius Thorne",
-    "age": 28,
+    "name": "Kaelen Voss",
+    "age": 32,
     "gender": "Male",
-    "species": "Humanoid",
-    "race": "Eldari-Human Hybrid",
-    "backstory_tags": ["Exile", "Scholar", "Mercenary"]
+    "species": "Human",
+    "race": "Wastelander",
+    "backstory_tags": ["Scavenger", "Technician", "Quiet"]
   },
   "physical_stats": {
     "health_points": {
-      "current": 85,
+      "current": 90,
       "maximum": 100
     },
     "is_alive": true,
-    "height": "182cm",
-    "weight": "75kg",
-    "physical_description": "Lean build with silver-tinted hair and blue eyes."
+    "height": "175cm",
+    "weight": "68kg",
+    "physical_description": "Wiry and sun-weathered. Wears a cracked respirator mask around the neck and a hood stained with grey silt."
   },
   "attributes": {
-    "strength": 12,
-    "dexterity": 15,
-    "intelligence": 18,
-    "charisma": 10,
-    "luck": 5
+    "strength": 10,
+    "dexterity": 14,
+    "intelligence": 16,
+    "charisma": 8,
+    "luck": 12
   },
   "inventory": {
     "currency": {
-      "gold_pieces": 150,
-      "shards": 12
+      "copper_bits": 45,
+      "clean_water_clips": 3
     },
     "equipped": {
-      "main_hand": "Runic Shortsword",
-      "off_hand": "Empty",
-      "armor": "Reinforced Traveler's Cloak"
+      "main_hand": "Sharpened Rebar Pike",
+      "off_hand": "Battery-powered Flashlight (Dim)",
+      "armor": "Layered Canvas and Tire-Tread Vest"
     },
     "backpack": [
       {
-        "item_id": "item_001",
-        "name": "Healing Potion",
-        "quantity": 2,
-        "weight_per_unit": 0.5,
+        "item_id": "scav_001",
+        "name": "Canned Rations",
+        "quantity": 1,
+        "weight_per_unit": 0.4,
         "is_consumable": true
       },
       {
-        "item_id": "item_042",
-        "name": "Ancient Map Fragment",
+        "item_id": "scav_042",
+        "name": "Rusty Multi-tool",
         "quantity": 1,
-        "weight_per_unit": 0.1,
+        "weight_per_unit": 0.3,
+        "is_consumable": false
+      },
+      {
+        "item_id": "scav_089",
+        "name": "Lead-lined Sample Jar",
+        "quantity": 2,
+        "weight_per_unit": 0.2,
         "is_consumable": false
       }
     ]
   },
   "status_effects": [
     {
-      "effect": "Fatigued",
-      "duration_turns": 3,
-      "modifier": "-2 Dexterity"
+      "effect": "Mild Radiation Sickness",
+      "duration_turns": 10,
+      "modifier": "-1 Strength"
     }
   ],
   "narrative_flags": {
     "has_met_king": false,
-    "knows_secret_identity": true,
-    "current_location_id": "whiterun_inn_01"
+    "knows_secret_identity": false,
+    "current_location_id": "loc_outpost_v",
+    "has_seen_the_citadel": false,
+    "searched_the_rubble": true
   }
 }

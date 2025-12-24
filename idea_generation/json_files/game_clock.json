@@ -1,0 +1,16 @@
+{
+  "chronos_state": {
+    "total_seconds_passed": 86400,
+    "formatted_time": "Day 2, 14:30",
+    "time_phase": "Afternoon",
+    "is_timed_event_active": true,
+    "active_cooldowns": [
+      {"ability": "Heal", "remaining_turns": 2}
+    ],
+    "environmental_effects": {
+      "lighting": "Bright",
+      "weather": "Acid Rain",
+      "visibility_penalty": 0.1
+    }
+  }
+}

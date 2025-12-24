@@ -1,24 +1,31 @@
 {
   "universe_metadata": {
-    "world_name": "Aetheria",
-    "era": "The Fourth Eclipse",
-    "magic_level": "High",
-    "tech_level": "Steampunk/Industrial"
+    "world_name": "Dust-9",
+    "era": "Year 84 Post-Fall",
+    "magic_level": "None",
+    "tech_level": "Scavenged/Analog (Low-Tech)"
   },
   "geography": {
     "regions": [
       {
-        "region_id": "reg_001",
-        "name": "Iron-Reach Archipelago",
-        "climate": "Arid/Maritime",
-        "danger_level": 3,
+        "region_id": "reg_wasteland_01",
+        "name": "The Silt Flats",
+        "climate": "Arid/Radioactive Dust Storms",
+        "danger_level": 7,
         "locations": [
           {
-            "loc_id": "loc_101",
-            "name": "Rustport",
-            "type": "City",
+            "loc_id": "loc_outpost_v",
+            "name": "Vanguard Outpost",
+            "type": "Fortified Settlement",
             "is_discovered": true,
-            "description": "A sprawling harbor built from salvaged ship hulls."
+            "description": "A collection of repurposed shipping containers and scrap metal walls surrounding a deep-water well."
+          },
+          {
+            "loc_id": "loc_citadel_01",
+            "name": "The Citadel",
+            "type": "Pre-War Skyscraper",
+            "is_discovered": false,
+            "description": "The only gleaming spire left in the skyline, heavily guarded by the Prophet's Zealots."
           }
         ]
       }
@@ -26,38 +33,48 @@
   },
   "factions": [
     {
-      "faction_id": "fac_vanguard",
-      "name": "The Solar Vanguard",
-      "alignment": "Lawful Neutral",
-      "player_reputation": 25,
-      "global_influence": 80,
-      "current_goals": ["Secure the Aether-Crystals", "Suppress the Rebellion"]
+      "faction_id": "fac_zealots",
+      "name": "The Prophet's Guard",
+      "alignment": "Lawful Evil",
+      "player_reputation": -50,
+      "global_influence": 95,
+      "current_goals": ["Protect the Citadel", "Confiscate Pre-War Tech", "Enforce Silence"]
+    },
+    {
+      "faction_id": "fac_scavengers",
+      "name": "The Wire-Pickers",
+      "alignment": "Chaotic Neutral",
+      "player_reputation": 0,
+      "global_influence": 20,
+      "current_goals": ["Survival", "Trading salvaged copper and lead", "Finding the Truth"]
     }
   ],
   "global_state": {
     "current_time": {
-      "day": 42,
-      "cycle": "Night",
-      "season": "Deep Frost"
+      "day": 1,
+      "cycle": "Dusk",
+      "season": "The Long Ash"
     },
     "active_events": [
       {
-        "event_id": "evt_war_01",
-        "description": "The border conflict at the Great Divide",
-        "impact_on_npcs": "Fearful/Uncooperative"
+        "event_id": "evt_purification_01",
+        "description": "The Prophet has declared a mandatory silence; anyone caught speaking of 'History' is detained and publicly punished. Corporal punishment is common.",
+        "impact_on_npcs": "Terrified/Whispering/Secretive"
       }
     ],
     "laws_of_physics": {
       "gravity": "Standard",
-      "magic_rules": "Requires Aether-cells to cast",
-      "death_permanence": true
+      "magic_rules": "None (Scientific laws apply strictly)",
+      "death_permanence": true,
+      "resource_scarcity": "High (Water and Fuel are capped)"
     }
   },
   "narrative_history": {
     "major_milestones": [
-      "The Fall of the Floating Isles",
-      "The Treaty of Rustport"
+      "The Last World War (The Great Flash)",
+      "The Rise of the Prophet",
+      "The Sealing of the Citadel Gates"
     ],
-    "prophecy_status": "Partially Fulfilled"
+    "prophecy_status": "The Prophet claims to hold the final truth; the truth is currently locked."
   }
 }

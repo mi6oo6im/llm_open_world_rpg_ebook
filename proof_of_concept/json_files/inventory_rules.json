@@ -1,17 +1,25 @@
-    {
+{
   "inventory_constraints": {
-    "max_weight_kg": 40.0,
-    "slot_limit": 10,
+    "max_weight_kg": 35.0,
+    "current_total_weight": 1.5,
+    "slot_limit": 12,
     "encumbrance_thresholds": {
-      "light": 0.5,
-      "heavy": 0.8,
+      "light": 0.4,
+      "heavy": 0.7,
       "overloaded": 1.0
     },
     "forbidden_item_types_for_species": {
-      "human": ["heavy_gravity_weapons"],
-      "cyborg": ["holy_water"],
-      "alien": ["toxic_substances"],
-      "elf": ["firearms"]
+      "human": [
+        "pre_war_automated_exoskeletons",
+        "high_yield_nuclear_cores"
+      ],
+      "wastelander": [
+        "pure_oxygen_canisters"
+      ]
+    },
+    "item_class_restrictions": {
+      "scavenged_tech": "Requires Intelligence > 12 to equip",
+      "heavy_scraps": "Reduces Dexterity by 2"
     }
   }
 }

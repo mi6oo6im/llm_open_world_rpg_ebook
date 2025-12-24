@@ -1,0 +1,73 @@
+{
+  "npc_identity": {
+    "npc_id": "npc_companion_01",
+    "name": "Mara 'Wrench' Vax",
+    "gender": "Female",
+    "role": "Former Citadel Engineer / Lead Scavenger",
+    "species": "Human",
+    "race": "High-City Descent",
+    "alignment": "Neutral Good",
+    "backstory_tags": ["Defector", "Mechanic", "Survivor", "Oportunist", "Defiant", "Rebel", "Resourceful"],
+    "voice_style": "Cynical, uses machine-part metaphors, speaks in clipped technical jargon",
+    "is_alive": true
+  },
+  "relationship_engine": {
+    "trust_score": 40,
+    "romance_score": 0,
+    "loyalty_level": "Uncertain Partner",
+    "shared_history": [
+      "Mara traded a clean water clip for your silence at the outpost",
+      "Both are currently evading a Vanguard patrol in the Silt Flats"
+    ]
+  },
+  "status": {
+    "health_points": {
+      "current": 55,
+      "max": 75
+    },
+    "is_essential": true,
+    "is_following_player": true,
+    "current_mood": "Analytic",
+    "energy_level": "Steady",
+    "is_alive": true,
+    "height": "155cm",
+    "weight": "50kg",
+    "physical_description": "Athletic and sturdy. Short fair hair and pleasing features. She has a high forehead and a piercing, analytical gaze. A faded barcode tattoo is visible on the back of her neck—the mark of a Citadel technician slave."
+ 
+  },
+  "knowledge_base": {
+    "knows_player_secret": false,
+    "world_lore_expertise": ["Pre-War Architecture", "Analog Circuitry", "Silt Flats Geography"],
+    "current_objective": "Locate a working bypass-module to crack the Citadel's outer gate"
+  },
+  "combat_config": {
+    "class": "Saboteur",
+    "abilities": ["EMP Burst (Manual)", "Oil Slick", "Bolt-Gun Sniper"],
+    "preferred_distance": "Mid Range"
+  },
+  "inventory": [
+    {
+      "item": "Master Schematic Folder",
+      "significance": "Quest Item / Technical Blueprints"
+    },
+    {
+      "item": "Pneumatic Bolt-Gun",
+      "condition": "Worn but reliable"
+    },
+    {
+      "item": "Universal Socket Wrench",
+      "condition": "Well-used"
+    }
+  ],
+  "narrative_constraints": {
+    "forbidden_actions": [
+      "Will never kill a surrendering opponent",
+      "Will refuse to use radioactive weaponry",
+      "Will not enter the Citadel without a gas mask"
+    ],
+    "triggers": {
+      "if_player_breaks_tech": "Decrease trust_score by 10",
+      "if_player_mentions_the_fall": "Trigger 'Technical Analysis' lore beat"
+    }
+  }
+}

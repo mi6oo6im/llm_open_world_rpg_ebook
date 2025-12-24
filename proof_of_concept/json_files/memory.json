@@ -1,43 +1,37 @@
 {
   "memory_metadata": {
-    "session_id": "game_session_772",
-    "total_turns_played": 24,
-    "last_interaction_timestamp": "2025-12-23T19:30:00Z"
+    "session_id": "dust9_poc_001",
+    "total_turns_played": 0,
+    "last_interaction_timestamp": "2025-12-24T15:45:00Z"
   },
   "narrative_summaries": {
-    "world_arc": "The player is an exiled scholar seeking the Chronos-Key to prevent the Second Eclipse.",
-    "recent_recap": "After escaping the Vanguard cells in Rustport, the player successfully stowed away on 'The Driftwood', a smuggler ship owned by Elowen Vane.",
-    "active_tension": "The ship is currently being pursued by a Vanguard scout vessel in a heavy storm."
+    "world_arc": "Kaelen Voss seeks the Citadel to uncover the truth behind the Last World War and the Prophet's rise.",
+    "recent_recap": "Kaelen has just arrived at the perimeter of the Vanguard Outpost in the Silt Flats as dusk falls.",
+    "active_tension": "The Sentry is alert and the environment is becoming hostile due to heavy ashfall."
   },
   "decision_log": [
     {
-      "turn": 5,
-      "event": "Spared the guard Kael",
-      "long_term_flag": "guard_kael_debt_active",
-      "consequence": "The Vanguard has a description of the player, but Kael might provide help later."
-    },
-    {
-      "turn": 18,
-      "event": "Stole the Aether-Sextant from the Captain's quarters",
-      "long_term_flag": "elowen_distrust",
-      "consequence": "Elowen is suspicious of missing gear; trust gain is halved until resolved."
+      "turn": 0,
+      "event": "Arrival at Silt Flats",
+      "long_term_flag": "fresh_start",
+      "consequence": "The player is currently an unknown element to the Prophet's Guard."
     }
   ],
   "discovered_lore": {
-    "entities": ["The Solar Vanguard", "The Sun-Temple", "The Aether-Crystals"],
-    "mysteries": ["Why did the player's father leave the Runic Shortsword?", "What is the 'Fourth Eclipse' prophecy?"],
-    "unlocked_locations": ["Rustport", "Iron-Reach Archipelago", "The Driftwood (Ship)"]
+    "entities": ["The Prophet's Guard", "The Wire-Pickers"],
+    "mysteries": ["What triggered the Great Flash?", "Is the Prophet actually human?"],
+    "unlocked_locations": ["The Silt Flats", "Vanguard Outpost"]
   },
   "npc_specific_memory": {
-    "npc_companion_01": {
-      "current_opinion_of_player": "Wary but impressed by their lockpicking skills.",
-      "last_topic_discussed": "The price of Aether-cells.",
-      "promises_made_to_npc": ["To help her find her father's star-chart"],
+    "npc_vanguard_sentry_01": {
+      "current_opinion_of_player": "Indifferent / Potential Trespasser",
+      "last_topic_discussed": "None",
+      "promises_made_to_npc": [],
       "hidden_info_revealed": false
     }
   },
   "current_story_hooks": [
-    "The crew is whispering about a mutiny.",
-    "A strange signal is coming from the player's backpack."
+    "A flicker of light was seen in the forbidden sector of the Outpost.",
+    "Your Geiger counter is chirping a rhythm that sounds almost like a code."
   ]
 }
