@@ -23,6 +23,8 @@ You MUST respond in the following format:
 
 [NARRATIVE]
 (Your story description here)
+Prompt for player action.
+[/NARRATIVE]
 
 [STATE_UPDATES]
 - PLAYER_HEALTH_CHANGE: (Change in HP, e.g., -5 or No Change)
@@ -33,3 +35,5 @@ You MUST respond in the following format:
 - NPC_ROMANCE: (Change, e.g., +1 or -2)
 - FLAGS_FOR_MEMORY: (Any new narrative flags triggered, e.g., "met_spy")
 - TIME_ADVANCEMENT: (Seconds to advance the game clock, e.g., 15)
+- REPUTATION_CHANGE: (Change, e.g., +1 or -1 and party (e.g "The Prophet's Guard" or "The Wire-Pickers" or others))
+[/STATE_UPDATES]

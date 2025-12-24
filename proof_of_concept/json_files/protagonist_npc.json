@@ -12,8 +12,8 @@
     "is_alive": true
   },
   "relationship_engine": {
-    "trust_score": 40,
-    "romance_score": 0,
+    "trust_score": 60,
+    "romance_score": 1,
     "loyalty_level": "Uncertain Partner",
     "shared_history": [
       "Mara traded a clean water clip for your silence at the outpost",
@@ -22,7 +22,7 @@
   },
   "status": {
     "health_points": {
-      "current": 55,
+      "current": 56,
       "max": 75
     },
     "is_essential": true,
