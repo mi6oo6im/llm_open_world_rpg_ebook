@@ -1,0 +1,70 @@
+{
+  "character_metadata": {
+    "version": "1.0",
+    "last_updated": "2025-12-23T14:57:00Z"
+  },
+  "identity": {
+    "name": "Valerius Thorne",
+    "age": 28,
+    "gender": "Male",
+    "species": "Humanoid",
+    "race": "Eldari-Human Hybrid",
+    "backstory_tags": ["Exile", "Scholar", "Mercenary"]
+  },
+  "physical_stats": {
+    "health_points": {
+      "current": 85,
+      "maximum": 100
+    },
+    "is_alive": true,
+    "height": "182cm",
+    "weight": "75kg",
+    "physical_description": "Lean build with silver-tinted hair and blue eyes."
+  },
+  "attributes": {
+    "strength": 12,
+    "dexterity": 15,
+    "intelligence": 18,
+    "charisma": 10,
+    "luck": 5
+  },
+  "inventory": {
+    "currency": {
+      "gold_pieces": 150,
+      "shards": 12
+    },
+    "equipped": {
+      "main_hand": "Runic Shortsword",
+      "off_hand": "Empty",
+      "armor": "Reinforced Traveler's Cloak"
+    },
+    "backpack": [
+      {
+        "item_id": "item_001",
+        "name": "Healing Potion",
+        "quantity": 2,
+        "weight_per_unit": 0.5,
+        "is_consumable": true
+      },
+      {
+        "item_id": "item_042",
+        "name": "Ancient Map Fragment",
+        "quantity": 1,
+        "weight_per_unit": 0.1,
+        "is_consumable": false
+      }
+    ]
+  },
+  "status_effects": [
+    {
+      "effect": "Fatigued",
+      "duration_turns": 3,
+      "modifier": "-2 Dexterity"
+    }
+  ],
+  "narrative_flags": {
+    "has_met_king": false,
+    "knows_secret_identity": true,
+    "current_location_id": "whiterun_inn_01"
+  }
+}

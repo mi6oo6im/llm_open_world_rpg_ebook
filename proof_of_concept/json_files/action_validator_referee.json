@@ -1,20 +1,30 @@
 {
-  "validator_id": "referee_logic_01",
+  "validator_id": "dust9_referee_logic",
   "difficulty_settings": {
-    "easy": 5,
-    "medium": 12,
-    "hard": 18,
-    "legendary": 25
+    "scrounging_simple": 5,
+    "hazardous_navigation": 12,
+    "citadel_security_bypass": 20,
+    "prophet_confrontation": 30
   },
   "action_mappings": {
-    "climb": "dexterity",
-    "persuade": "charisma",
-    "lift": "strength",
-    "hack": "intelligence"
+    "scavenge": "luck",
+    "repair_analog_tech": "intelligence",
+    "climb_rubble": "dexterity",
+    "intimidate_raider": "strength",
+    "resist_contamination": "strength",
+    "deceive_zealot": "charisma",
+    "navigate_dust_storm": "intelligence"
   },
   "global_restrictions": {
     "require_stamina": true,
-    "stamina_drain_per_action": 10,
-    "allow_resurrection": false
+    "stamina_drain_per_action": 15,
+    "allow_resurrection": false,
+    "radiation_threshold": 100,
+    "permadeath_enabled": true
+  },
+  "success_thresholds": {
+    "critical_failure": 1,
+    "partial_success": "DC - 2",
+    "critical_success": 20
   }
 }

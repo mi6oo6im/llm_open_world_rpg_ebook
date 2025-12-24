@@ -1,0 +1,64 @@
+{
+  "npc_identity": {
+    "npc_id": "npc_antagonist_01",
+    "name": "The Prophet (Aurelius Malacor)",
+    "gender": "Male",
+    "role": "Dictator of the Citadel / Keeper of the Flash-History",
+    "species": "Human (Enhanced)",
+    "race": "Old-World Heritage",
+    "alignment": "Lawful Evil",
+    "backstory_tags": ["Survivor", "Architect", "Messiah-Complex"],
+    "voice_style": "Grandioise, uses religious and philosophical metaphors, speaks in calm but absolute declarations",
+    "is_alive": true
+  },
+  "relationship_engine": {
+    "trust_score": 0,
+    "romance_score": 0,
+    "loyalty_level": "Absolute Adversary",
+    "shared_history": [
+      "Malacor authorized the 'Purification' of the player's home sector",
+      "The player represents a 'variable' the Prophet did not predict"
+    ]
+  },
+  "status": {
+    "health_points": {
+      "current": 500,
+      "max": 500
+    },
+    "is_essential": true,
+    "is_following_player": false,
+    "current_mood": "Indifferent",
+    "energy_level": "Radiant"
+  },
+  "knowledge_base": {
+    "knows_player_secret": true,
+    "world_lore_expertise": ["Pre-War Weapons", "Human Psychology", "The Great Flash Cause"],
+    "current_objective": "Erase the last remnants of Pre-War history to create a 'pure' future."
+  },
+  "combat_config": {
+    "class": "Overlord",
+    "abilities": ["Psychological Pressure", "Citadel Command Pulse", "Voice of Authority"],
+    "preferred_distance": "Throne-Room Radius"
+  },
+  "inventory": [
+    {
+      "item": "The First Record",
+      "significance": "The only surviving hard-drive from the Last World War"
+    },
+    {
+      "item": "Vanguard Master-Key",
+      "significance": "Controls all Citadel security"
+    }
+  ],
+  "narrative_constraints": {
+    "forbidden_actions": [
+      "Will never leave the Citadel",
+      "Will not lie (prefers omission)",
+      "Cannot be intimidated by physical threats"
+    ],
+    "triggers": {
+      "if_player_presents_truth": "Increase tension_level to Maximum",
+      "if_player_submits": "Trigger 'Subjugation' ending sequence"
+    }
+  }
+}

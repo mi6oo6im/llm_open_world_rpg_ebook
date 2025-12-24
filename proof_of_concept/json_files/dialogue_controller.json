@@ -1,15 +1,24 @@
 {
   "dialogue_state": {
-    "active_npc_id": "npc_companion_01",
-    "conversation_turn": 4,
-    "tension_level": 0.2,
+    "active_npc_id": "npc_vanguard_sentry_01",
+    "conversation_turn": 0,
+    "tension_level": 0.6,
     "interrogation_mode": false,
-    "topics_discussed": ["the_heist", "ship_location"],
-    "locked_topics": ["secret_identity", "traitor_name"],
+    "topics_discussed": [],
+    "locked_topics": [
+      "the_last_war",
+      "prophet_identity",
+      "citadel_coordinates"
+    ],
     "patience_meter": {
-      "current": 8,
+      "current": 5,
       "max": 10,
-      "decay_rate_per_turn": 1
+      "decay_rate_per_turn": 2
+    },
+    "social_modifiers": {
+      "is_bribery_possible": true,
+      "preferred_currency": "clean_water_clips",
+      "hostility_threshold": 1
     }
   }
 }
