@@ -1,22 +1,22 @@
 {
   "npc_identity": {
     "npc_id": "npc_companion_01",
-    "name": "Mara 'Wrench' Vax",
+    "name": "Maria 'Wrench' Vax",
     "gender": "Female",
     "role": "Former Citadel Engineer / Lead Scavenger",
     "species": "Human",
     "race": "High-City Descent",
     "alignment": "Neutral Good",
     "backstory_tags": ["Defector", "Mechanic", "Survivor", "Oportunist", "Defiant", "Rebel", "Resourceful"],
-    "voice_style": "Cynical, uses machine-part metaphors, speaks in clipped technical jargon",
+    "voice_style": "Cynical, uses machine-part metaphors, dry humor",
     "is_alive": true
   },
   "relationship_engine": {
-    "trust_score": 60,
+    "trust_score": 66,
     "romance_score": 1,
     "loyalty_level": "Uncertain Partner",
     "shared_history": [
-      "Mara traded a clean water clip for your silence at the outpost",
+      "Maria traded a clean water clip for your silence at the outpost",
       "Both are currently evading a Vanguard patrol in the Silt Flats"
     ]
   },
