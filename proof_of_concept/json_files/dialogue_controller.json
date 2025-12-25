@@ -19,6 +19,16 @@
       "is_bribery_possible": true,
       "preferred_currency": "clean_water_clips",
       "hostility_threshold": 1
-    }
+    },
+    "dialogue_state": {
+    "active_npc_id": "npc_companion_01",
+    "situational_awareness": "EXTREME_DANGER",
+    "can_be_interrupted_by_environment": true,
+    "patience_meter": {
+      "current": 2, 
+      "decay_rate_per_turn": 4 
+    },
+    "strict_rule": "Dialogue does not pause the world. If environmental_effects indicate 'Acid Rain' or active_events indicate 'Vanguard Pursuit', the NPC must prioritize survival over conversation. NPCs should speak in short, breathless bursts or refuse to talk until they reach cover."
   }
+}
 }
